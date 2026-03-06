@@ -14,6 +14,9 @@ public class Principal {
 		// Declarar la lista
 		List<Doctores> listaNueva = new ArrayList<Doctores>();
 
+		System.out.println("Hola mundo");
+		System.out.println("Tenes un " + 100);
+
 		// Metodos del crud basico
 
 		// Agregar elementos a la lista .add
