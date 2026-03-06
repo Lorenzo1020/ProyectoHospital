@@ -1,0 +1,54 @@
+
+public class Doctores {
+
+	private long cedula;
+	private String nombre;
+	private long numCelular;
+	private char sexo;
+
+	public Doctores(long cedula, String nombre, long numCelular, char sexo) {
+		this.cedula = cedula;
+		this.nombre = nombre;
+		this.numCelular = numCelular;
+		this.sexo = sexo;
+	}
+
+	@Override
+	public String toString() {
+		return "Doctores [cedula=" + cedula + ", nombre=" + nombre + ", numCelular=" + numCelular + ", sexo=" + sexo
+				+ "]\n";
+	}
+
+	public long getCedula() {
+		return cedula;
+	}
+
+	public void setCedula(long cedula) {
+		this.cedula = cedula;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public long getNumCelular() {
+		return numCelular;
+	}
+
+	public void setNumCelular(long numCelular) {
+		this.numCelular = numCelular;
+	}
+
+	public char getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+}
