@@ -1,4 +1,3 @@
-
 public class Doctores {
 
 	private long cedula;
